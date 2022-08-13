@@ -16,7 +16,3 @@ app.component('TopBar', TopBar)
     .use(ElementPlus)
     .use(createPinia())
     .mount('#app')
-
-console.log(process.env.VUE_APP_NAME)
-console.log(process.env.VUE_APP_URL)
-console.log(process.env.VUE_APP_STATIC, typeof process.env.VUE_STATIC)
