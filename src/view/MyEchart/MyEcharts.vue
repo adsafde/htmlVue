@@ -79,6 +79,7 @@ const edit = (scope) => {
 }
 const save = (scope) => {
   scope.isShow = false
+  console.log(scope)
 }
 export default {
   name: "MyEcharts",
